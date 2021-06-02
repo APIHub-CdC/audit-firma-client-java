@@ -10,9 +10,9 @@
       <id>github</id>
       <repositories>
         <repository>
-          <id>fintechscore-client-java</id>
+          <id>audit-firma-client-java</id>
           <name>GitHub APIHub-CdC Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/APIHub-CdC/fintechscore-client-java</url>
+          <url>https://maven.pkg.github.com/APIHub-CdC/audit-firma-client-java</url>
         </repository>      
         <repository>
           <id>signature-manager-java</id>
@@ -24,7 +24,7 @@
   </profiles>
   <servers>
     <server>
-      <id>fintechscore-client-java</id>
+      <id>audit-firma-client-java</id>
       <username>${GITHUB_ACTOR}</username>
       <password>${GITHUB_TOKEN}</password>
     </server>    
